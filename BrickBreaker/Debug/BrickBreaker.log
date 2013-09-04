@@ -1,0 +1,30 @@
+﻿Build started 4/18/2012 6:36:48 PM.
+     1>Project "C:\Users\Josh Kuiros\Documents\Visual Studio 2010\Projects\BrickBreaker\BrickBreaker\BrickBreaker.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\BrickBreaker.unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp resource.cpp
+         resource.cpp
+         main.cpp
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Josh Kuiros\Documents\Visual Studio 2010\Projects\BrickBreaker\Debug\BrickBreaker.exe" /NOLOGO SDL.lib SDLmain.lib SDL_mixer.lib SDL_ttf.lib SDL_image.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\BrickBreaker.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Josh Kuiros\Documents\Visual Studio 2010\Projects\BrickBreaker\Debug\BrickBreaker.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Josh Kuiros\Documents\Visual Studio 2010\Projects\BrickBreaker\Debug\BrickBreaker.lib" /MACHINE:X86 Debug\ball.obj
+         Debug\block.obj
+         Debug\game.obj
+         Debug\level.obj
+         Debug\main.obj
+         Debug\menu.obj
+         Debug\paddle.obj
+         Debug\resource.obj
+     1>MSVCRTD.lib(cinitexe.obj) : warning LNK4098: defaultlib 'msvcrt.lib' conflicts with use of other libs; use /NODEFAULTLIB:library
+         BrickBreaker.vcxproj -> C:\Users\Josh Kuiros\Documents\Visual Studio 2010\Projects\BrickBreaker\Debug\BrickBreaker.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\Josh Kuiros\Documents\Visual Studio 2010\Projects\BrickBreaker\Debug\BrickBreaker.exe;#1" /manifest Debug\BrickBreaker.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\BrickBreaker.unsuccessfulbuild".
+         Touching "Debug\BrickBreaker.lastbuildstate".
+     1>Done Building Project "C:\Users\Josh Kuiros\Documents\Visual Studio 2010\Projects\BrickBreaker\BrickBreaker\BrickBreaker.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.97
